@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 const helmet = require('helmet');
-const bcrypt = require('bcrypt');
+const bcrypt = require("bcrypt");
 
 app.use(helmet.hidePoweredBy());
 app.use(helmet.frameguard({ action: 'DENY'}));
